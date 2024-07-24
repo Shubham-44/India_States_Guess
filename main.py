@@ -1,6 +1,5 @@
 import turtle
 import pandas
-import pandas as pd
 
 screen = turtle.Screen()
 screen.title("Guess the States in Indian")
@@ -21,7 +20,7 @@ while len(guess_states) < 29:
         for state in all_states:
             if state not in guess_states:
                 missing_states.append(state)
-        new_data = pd.DataFrame(missing_states)
+        new_data = pandas.DataFrame(missing_states)
         new_data.to_csv("Learning_States.csv")
         break
 
