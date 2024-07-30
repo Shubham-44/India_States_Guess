@@ -13,7 +13,7 @@ This is an interactive game to test your knowledge of the states in India. The g
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/Shubham-44/India_States_Guess
+    git clone https://github.com/Shubham-44/India_States_Guess.git
     ```
 
 2. **Install dependencies**:
